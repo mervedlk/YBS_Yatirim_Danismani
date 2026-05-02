@@ -3,7 +3,7 @@ Kullanıcının girdiği son 3 yıla ait ekonomik verileri (Dolar, Euro, Altın)
 
 # Kullanılan Teknikler & Özellikler
 * Bileşik Büyüme Modeli: Her yılın tahmini, hesaplanan ortalama artış oranına göre bir önceki yılın üzerine eklenerek hesaplanır.
-* Bölgesel Format Uyumu (Culture Settings): "en-US" entegrasyonu ile ondalık sayı girişlerindeki (nokta/virgül) hatalar engellenmiştir.
+* Bölgesel Format Uyumu: "en-US" entegrasyonu ile ondalık sayı girişlerindeki (nokta/virgül) hatalar engellenmiştir.
 * Karar Mekanizması: 5. yılın sonundaki toplam bakiye tahminlerini karşılaştırarak en kârlı yatırım aracını dinamik olarak seçer.
 * Döngüsel Hesaplama: Gelecek 5 yılın verilerini "for" döngüsü ile sistematik olarak listeler.
 
